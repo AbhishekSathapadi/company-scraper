@@ -42,7 +42,7 @@ class ExcelExportPipeline:
         self.items = []
 
         # Azure Blob Storage configuration
-        self.connection_string = os.getenv("DefaultEndpointsProtocol=https;AccountName=acigcompanyscrapersa;AccountKey=WJ+P1LmKEjM3jAQjY9SiBrUj+FOpLgoqOmwdLtf7OnFOoE+UIou5jnwn1XrA/sCpLn5Q9Kg9Bq4n+AStth3pyQ==;EndpointSuffix=core.windows.net")
+        self.connection_string = os.getenv("")
         self.container_name = "acig-company-scraper-blob"
         self.blob_name = "company_data.xlsx"
 
